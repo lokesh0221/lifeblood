@@ -38,8 +38,9 @@ nav a{
     align-items: center;
     color: black;
     font-weight: bold;
-
 }
+
+
 
 nav a:hover {
     color: red;
