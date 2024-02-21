@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeBlood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Donor</a></li>
+            <li><a href="#">Receiver</a></li>
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul>
+            <li class="logo"><a href="#">LifeBlood</a></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Donor</a></li>
+            <li class="hideOnMobile"><a href="#">Receiver</a></li>
+            <li class="hideOnMobile"><a href="#">Admin</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#">
+                <label for="nav_check" class="menu-button">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+            </a></li>
+        </li>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="myform">
+            <h2>Login</h2>
+            <form id="form" action="index.html">
+            <div class="email">
+                    <input type="text" placeholder="Email" id="email">
+                    <div class="error"></div>
+            </div>
+            <div class="password">
+                <input id="password"name="password" placeholder="Password" type="password">
+                    <div class="error"></div>
+            </div>
+            <div class="submit">
+                <button type="submit">Login</button>
+                <div class="error"></div>
+            </div>
+          </form>
+        </div>
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
